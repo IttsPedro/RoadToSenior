@@ -16,12 +16,13 @@ public class BarChart {
             if (counter == 10)
                 System.out.printf("%5d: ", 100);
             else
-                System.out.printf("%02d-%02d: ", counter *10, counter *10 + 9);
+                System.out.printf("%02d-%02d: ", counter * 10, counter * 10 + 9);
 
             // imprime a barra de asteriscos
             for (int stars = 0; stars < array[counter]; stars++)
+                System.out.print("*");
 
-                System.out.println();
+            System.out.println();
         }
     }
 }
